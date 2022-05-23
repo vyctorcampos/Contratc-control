@@ -6,7 +6,7 @@ utilize `npm start` ou `yarn start` para iniciar o projeto
 
 ### `Tela inicial`
 *DADOS MOCKADOS*
-Tela incial é exibida um dashboard grafico onde é possivel visualizar `Quantidade de contratos` , `Numero de contratos a vencer` e `tempo medio de prestação de serviços(meses)` 
+- Tela incial é exibida um dashboard grafico onde é possivel visualizar `Quantidade de contratos` , `Numero de contratos a vencer` e `tempo medio de prestação de serviços(meses)` 
 - #`Grafico em barra `
   Possivel vizualizar mais detalhadamente os dados
   possivel fazer download do grafico clicando no botão que se localiza no canto superior direito do grafico 
