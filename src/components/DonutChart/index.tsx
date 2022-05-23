@@ -4,7 +4,7 @@ import Chart from 'react-apexcharts';
 const DonutChart = () => {
   const mockDonut = {
     series: [12, 5, 3],
-    labels: ['0 e 1', '1 e 3', '3+'],
+    labels: ['0 e 1 Ano', '1 e 3 Anos', '3+ Anos'],
   };
   const options = {
     legend: {
