@@ -1,45 +1,46 @@
-# Começando com Create React App
-
-Este projeto foi inicializado com [Create React App](https://github.com/facebook/create-react-app).
+# Iniciando Projeto
 
 ## Scripts Disponíveis
 
-No diretório do projeto, você pode executar:
+utilize `npm start` ou `yarn start` para iniciar o projeto
 
-### `npm start`
+### `Tela inicial`
+*DADOS MOCKADOS*
+Tela incial é exibida um dashboard grafico onde é possivel visualizar `Quantidade de contratos` , `Numero de contratos a vencer` e `tempo medio de prestação de serviços(meses)` 
+- #`Grafico em barra `
+  Possivel vizualizar mais detalhadamente os dados
+  possivel fazer download do grafico clicando no botão que se localiza no canto superior direito do grafico 
+- #`Grafico em pizza `
+  possivel vializar mais detalhado o grafico medio de tempo 
+  
 
-Executa o aplicativo no modo de desenvolvimento.\
-Abra [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
+### `Usuários`
+Possivel cadastras tanto o usuario quanto o contrato
+- #`Cadastro de usuários `
+  possivel cadastrar o usuario com suas informações `Nome`, `cpf` e `CEP` e caso queira atribuir um contrato ao usuario apenas marcar a box
+  - #`cadastro de contrato` 
+  possivel adicionar contrato ao usuario passando como informação o `número do contrato`, `data de registro` e `data de validade`
+   - #`validações`
+    Campos são validados como obrigatorios, caso usuario não preencher algumas informação será informado ao usuario a falta de dados .
+    Validação positiva e negativa ao usuario quando o cadastro é efetuado.
+    
 
-A página será recarregada se você fizer edições.\
-Você também verá erros de lint no console.
+### `Contratos`
+ - #`Tabela`
+  possivel visualizar tabela com todos os dados dos usuarios.
 
-### `teste npm`
+### `Layout`
+-`Sidebar interativa`
+-`Dark mode `
 
-Inicia o executor de teste no modo de exibição interativa.\
-Consulte a seção sobre [execução de testes](https://facebook.github.io/create-react-app/docs/running-tests) para obter mais informações.
 
-### `npm executar compilação`
 
-Compila o aplicativo para produção na pasta `build`.\
-Ele agrupa corretamente o React no modo de produção e otimiza a compilação para o melhor desempenho.
-
-A compilação é reduzida e os nomes dos arquivos incluem os hashes.\
-Seu aplicativo está pronto para ser implantado!
-
-Consulte a seção sobre [implantação](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
-
-### `npm run eject`
-
-**Nota: esta é uma operação unidirecional. Depois de 'ejetar', você não pode voltar!**
-
-Se você não estiver satisfeito com a ferramenta de compilação e as opções de configuração, poderá `ejetar` a qualquer momento. Este comando removerá a dependência de compilação única do seu projeto.
-
-Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc) diretamente em seu projeto para que você tenha controle total sobre eles. Todos os comandos, exceto `eject`, ainda funcionarão, mas eles apontarão para os scripts copiados para que você possa ajustá-los. Neste momento você está por sua conta.
-
-Você não precisa usar `eject`. O conjunto de recursos com curadoria é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estiver pronto para isso.
-
-## Saber mais
+## `Bibliotecas usadas`
+`react-icons `,
+`yup`,
+`styled components`,
+`react toastify`,
+`apexcharts`.
 
 Você pode aprender mais na [documentação Criar aplicativo React](https://facebook.github.io/create-react-app/docs/getting-started).
 
